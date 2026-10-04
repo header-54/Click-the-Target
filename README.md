@@ -10,7 +10,7 @@ Test your reaction speed, accuracy, and consistency by clicking randomly positio
 
 > A minimal cyber-style interface featuring a neon cyan target, live game statistics, grid-based game area, and a dark Header54 visual identity.
 
-![Click the Target Preview](./screenshot.png)
+![Click the Target Preview](./clickthetarget.png)
 
 ---
 
