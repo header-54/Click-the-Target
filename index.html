@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Target // Header54</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background effects -->
+    <div class="glow"></div>
+
+    <!-- Header -->
+    <header class="navbar">
+
+        <div class="logo">
+            HEADER<span>54</span>
+        </div>
+
+        <div class="status">
+            <span></span>
+            SYSTEM ONLINE
+        </div>
+
+    </header>
+
+
+    <!-- Main Game -->
+    <main>
+
+        <section class="game-container">
+
+            <!-- Title -->
+            <div class="game-heading">
+
+                <div class="badge">
+                    <span></span>
+                    TARGET TRAINING
+                </div>
+
+                <h1>
+                    Click the <span>Target</span>
+                </h1>
+
+                <p>
+                    Test your reaction speed and accuracy.
+                    Hit as many targets as possible before time runs out.
+                </p>
+
+            </div>
+
+
+            <!-- Stats -->
+            <div class="stats">
+
+                <div class="stat-box">
+                    <small>SCORE</small>
+                    <strong id="score">0</strong>
+                </div>
+
+                <div class="stat-box">
+                    <small>TIME</small>
+                    <strong id="time">30</strong>
+                </div>
+
+                <div class="stat-box">
+                    <small>MISSES</small>
+                    <strong id="misses">0</strong>
+                </div>
+
+                <div class="stat-box">
+                    <small>ACCURACY</small>
+                    <strong id="accuracy">100%</strong>
+                </div>
+
+            </div>
+
+
+            <!-- Game Area -->
+            <div id="gameArea" class="game-area">
+
+                <div id="startScreen" class="start-screen">
+
+                    <div class="crosshair">+</div>
+
+                    <h2>READY?</h2>
+
+                    <p>
+                        Click START to begin the target training.
+                    </p>
+
+                    <button id="startBtn">
+                        START GAME
+                    </button>
+
+                </div>
+
+                <div id="target" class="target hidden">
+
+                    <div class="target-ring ring-1"></div>
+                    <div class="target-ring ring-2"></div>
+                    <div class="target-ring ring-3"></div>
+
+                    <div class="target-dot"></div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Game Over -->
+            <div id="gameOver" class="game-over hidden">
+
+                <div class="badge">
+                    <span></span>
+                    SESSION COMPLETE
+                </div>
+
+                <h2>
+                    TARGET <span>ACQUIRED</span>
+                </h2>
+
+                <div class="final-score">
+                    <small>FINAL SCORE</small>
+                    <strong id="finalScore">0</strong>
+                </div>
+
+                <button id="restartBtn">
+                    PLAY AGAIN
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <span>HEADER54</span>
+        <p>Cybersecurity • Web Security • Games</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
